@@ -16,6 +16,7 @@ Sentry.init({
   // Trace sampling is intentionally explicit for browser diagnostics without altering execution flow.
   // Enable logs to be sent to Sentry
   enableLogs: true,
+  // Log forwarding remains opt-in and behavior-neutral for runtime diagnostics.
 
   // Define how likely Replay events are sampled.
   // This sets the sample rate to be 10%. You may want this to be 100% while
