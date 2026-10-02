@@ -4,6 +4,7 @@
 
 import * as Sentry from "@sentry/nextjs";
 
+// Browser bootstrap for client-side instrumentation; the runtime contract remains unchanged.
 Sentry.init({
   dsn: "https://7371ad0ea65382b83e1349a28686dda4@o4510925607206912.ingest.de.sentry.io/4510925635190864",
 
