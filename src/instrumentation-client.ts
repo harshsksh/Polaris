@@ -13,6 +13,7 @@ Sentry.init({
 
   // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
   tracesSampleRate: 1,
+  // Trace sampling is intentionally explicit for browser diagnostics without altering execution flow.
   // Enable logs to be sent to Sentry
   enableLogs: true,
 
